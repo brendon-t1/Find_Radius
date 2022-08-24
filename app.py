@@ -1,7 +1,7 @@
 from tkinter import *
 
 root = Tk()
-root.title("Calculate Radius of Weight")
+root.title("Weight Training Equipment Developer")
 
 def volumeCircle(radius, height):
     volume = 3.14159 * (radius * radius) * height
