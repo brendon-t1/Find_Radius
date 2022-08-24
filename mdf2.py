@@ -16,11 +16,10 @@ def radiusForWeight(weight=5, height=.75, material=.028):
 
     #calc cubic inches needed for weight
     cubic_inches = total_weight / material
-    print(cubic_inches)
     
     circle_radius = (cubic_inches / (pi * height)) **.5
     circle_radius_rounded = round(circle_radius, 2)
     
     return circle_radius_rounded
 
-print(radiusForWeight(5, .75, .5))
+print(radiusForWeight())
